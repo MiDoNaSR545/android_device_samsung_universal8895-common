@@ -79,3 +79,10 @@ ro.soc.model=Exynos 8895
 ro.zram.mark_idle_delay_mins=60
 ro.zram.first_wb_delay_mins=1440
 ro.zram.periodic_wb_delay_hours=24
+
+# Display (Phase Offsets)
+debug.sf.use_phase_offsets_as_durations=1
+debug.sf.late.app.duration=16600000
+debug.sf.late.sf.duration=10500000
+debug.sf.frame_rate_multiple_threshold=120
+debug.adreno.disable_backend_affinity=true
