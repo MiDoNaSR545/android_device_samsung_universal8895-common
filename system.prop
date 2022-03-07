@@ -59,6 +59,8 @@ persist.demo.hdmirotationlock=false
 debug.sf.enable_gl_backpressure=1
 
 
+ro.vendor.perf.scroll_opt=true
+
 # Telephony
 keyguard.no_require_sim=true
 vendor.sec.rild.libpath=/vendor/lib64/libsec-ril.so
