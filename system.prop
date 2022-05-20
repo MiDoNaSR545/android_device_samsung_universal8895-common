@@ -65,6 +65,9 @@ ro.hdcp2.rx=tz
 ro.vendor.sec.radio.def_network=10,10
 ro.telephony.default_network=10,10
 
+# Phantom process monitoring
+sys.fflag.override.settings_enable_monitor_phantom_procs=false
+
 # Android first shipping level
 ro.product.first_api_level=24
 ro.vndk.version=24
