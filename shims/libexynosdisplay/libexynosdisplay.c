@@ -17,7 +17,7 @@
 #define LOG_TAG "libexynosdisplay_shim"
 #define LOG_NDEBUG 1
 
-#include <cutils/log.h>
+#include <log/log.h>
 #include <cutils/native_handle.h>
 
 //int32_t ExynosLayer::setLayerBuffer(buffer_handle_t buffer, int32_t acquireFence)
