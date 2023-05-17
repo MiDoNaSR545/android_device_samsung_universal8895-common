@@ -61,6 +61,9 @@ debug.sf.enable_gl_backpressure=1
 # Disable Skia tracing by default
 debug.hwui.skia_atrace_enabled=false
 
+# FS-verity
+ro.apk_verity.mode=2
+
 # Telephony
 keyguard.no_require_sim=true
 vendor.sec.rild.libpath=/vendor/lib64/libsec-ril.so
