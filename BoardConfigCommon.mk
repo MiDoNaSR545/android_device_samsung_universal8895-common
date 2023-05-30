@@ -118,6 +118,9 @@ OVERRIDE_RS_DRIVER := libRSDriverArm.so
 # Samsung HALs
 TARGET_POWERHAL_VARIANT := samsung
 
+#Use SCUDO
+PRODUCT_USE_SCUDO := true
+
 # Bluetooth
 BOARD_CUSTOM_BT_CONFIG := $(COMMON_PATH)/bluetooth/libbt_vndcfg.txt
 BOARD_HAVE_BLUETOOTH := true
