@@ -1,3 +1,5 @@
+allow rild default_android_vndservice:service_manager find;
+
 allow rild proc_net:file write;
 allow rild vendor_data_file:file create_file_perms;
 
@@ -10,6 +12,9 @@ allow rild radio_vendor_data_file:file create_file_perms;
 allow rild radio_vendor_data_file:dir rw_dir_perms;
 allow rild radio_data_file:file rw_file_perms;
 allow rild radio_data_file:dir search;
+
+get_prop(rild, vendor_radio_prop)
+set_prop(rild, vendor_radio_prop)
 
 allow rild proc_qtaguid_stat:file read;
 
