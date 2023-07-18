@@ -143,12 +143,12 @@ PRODUCT_PACKAGES += \
 
 # HotwordEnrollement app permissions
 PRODUCT_COPY_FILES += \
-    $(COMMON_PATH)/configs/privapp-permissions-hotword.xml:system/etc/permissions/privapp-permissions-hotword.xml
+    $(COMMON_PATH)/configs/privapp-permissions-hotword.xml:vendor/etc/permissions/privapp-permissions-hotword.xml
 
 # Keylayout
 PRODUCT_COPY_FILES += \
-    $(COMMON_PATH)/configs/keylayout/gpio_keys.kl:system/usr/keylayout/gpio_keys.kl \
-    $(COMMON_PATH)/configs/keylayout/uinput-sec-fp.kl:system/usr/keylayout/uinput-sec-fp.kl
+    $(COMMON_PATH)/configs/keylayout/gpio_keys.kl:vendor/usr/keylayout/gpio_keys.kl \
+    $(COMMON_PATH)/configs/keylayout/uinput-sec-fp.kl:vendor/usr/keylayout/uinput-sec-fp.kl
 
 
 # keymaster
@@ -314,7 +314,7 @@ PRODUCT_PACKAGES += \
 
 # s-pen
 PRODUCT_COPY_FILES += \
-    $(COMMON_PATH)/configs/samsung-sec_e-pen.idc:system/usr/idc/sec_e-pen.idc
+    $(COMMON_PATH)/configs/samsung-sec_e-pen.idc:vendor/usr/idc/sec_e-pen.idc
 
 # Trust HAL
 PRODUCT_PACKAGES += \
