@@ -64,8 +64,7 @@ PRODUCT_COPY_FILES += \
 # Bluetooth
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0-impl:64 \
-    android.hardware.bluetooth@1.0-service \
-     $(LOCAL_PATH)/configs/component-overrides.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sysconfig/component-overrides.xml
+    android.hardware.bluetooth@1.0-service
 
 # Boot animation
 TARGET_BOOTANIMATION_HALF_RES := true
