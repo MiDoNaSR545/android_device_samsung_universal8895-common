@@ -1,5 +1,10 @@
 ## Audio
 ro.config.vc_call_vol_steps=7
+persist.vendor.audio.dualmic.config=endfire
+persist.vendor.audio.fluence.voicecall=true
+persist.vendor.audio.fluence.voicecomm=true
+persist.vendor.audio.voicecall.speaker.stereo=false
+ro.audio.monitorRotation=true
 
 # Bluetooth
 bluetooth.device.class_of_device=90,2,12
