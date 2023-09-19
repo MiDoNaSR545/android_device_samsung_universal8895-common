@@ -2,6 +2,8 @@ allow kernel app_efs_file:dir search;
 allow kernel app_efs_file:file open;
 allow kernel sensor_factoryapp_efs_file:file open;
 allow kernel efs_file:dir search;
+allow kernel sysfs_sec_key:file {read};
+allow kernel sysfs_sec_key:file {open};
 
 allow kernel device:chr_file { getattr setattr unlink create };
 allow kernel device:blk_file create;
