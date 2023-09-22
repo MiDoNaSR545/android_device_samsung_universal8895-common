@@ -265,6 +265,12 @@ PRODUCT_PACKAGES += \
     android.hardware.radio@1.2 \
     android.hardware.radio@1.3 \
     android.hardware.radio@1.4 \
+    android.hardware.radio@1.5 \
+    android.hardware.radio@1.6 \
+    android.hardware.radio@1.4.vendor \
+    android.hardware.radio@1.5.vendor \
+    android.hardware.radio@1.6.vendor \
+
     libxml2 \
     secril_config_svc
 
