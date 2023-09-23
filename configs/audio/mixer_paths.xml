@@ -333,6 +333,10 @@
 		<path name="dev-headset" />
 	</path>
 
+        <path name="voice-headset">
+        <path name="headphones" />
+        </path>
+
 	<path name="media-headphone">
 		<path name="media-headset" />
 	</path>
